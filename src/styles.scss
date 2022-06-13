@@ -1,1 +1,22 @@
+/*font implement*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/*variables*/
+:root{
+  --white: #fff;
+  --black: #000;
+}
+
+/*global settings*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body,html{
+  background-color: var(--black);
+  height: 100%;
+  width: 375px;
+}

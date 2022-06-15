@@ -3,12 +3,28 @@
 
 /*variables*/
 :root {
-  --azul: #7289da;
-  --preto_claro: #424549;
-  --preto_claro_2: #36393e;
-  --preto_escuro: #282b30;
-  --preto_escuro_2: #1e2124;
+  --gray:  #A8A7A7 ;
 
+  --pink:   #97284d;
+  --red: #E8175D;
+
+  --blue:#45ADA8;
+  --dark_blue:#547980;
+
+  --beje:#E5FCC2;
+  --light_green:#9DE0AD;
+
+  --dark_gray: #474747 ;
+  --black: #363636 ;
+  --blue: #1b1970;
+  --pink_2: #EA4492;
+  --purple: #5d15af;
+
+  --background: #272727;
+  --appbar:var(--background-primary);
+  --background-primary: #121212;
+  --color_primary: #ffffff;
+  --color_secondary: #ffffff;
 }
 
 /*global settings*/
@@ -20,6 +36,6 @@
 }
 
 body,
-html {
-  background-image: var(--preto);
+html{
+  background-color: var(--background);
 }

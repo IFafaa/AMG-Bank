@@ -1,0 +1,178 @@
+
+ .container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.general_box{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header{
+  background-color: white;
+  width: 375px;
+  display: flex;
+
+  .logo_box{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding: 15px 0px;
+  }
+
+  .menu_box{
+    width: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+main{
+  .cards_container{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+    .card_box{
+      width: 47%;
+      height: 180px;
+      border-radius: 15px;
+    }
+
+    .left_card{
+      background-image: linear-gradient(to bottom,rgba(119, 119, 119, 0.829),rgba(61, 61, 61, 0.829));
+    }
+
+    .right_card{
+      background-image: linear-gradient(to bottom,rgba(226, 226, 226, 0.829),rgba(124, 124, 124, 0.829));
+    }
+
+    .margin_card{
+      margin: 15px;
+      height: 100%;
+
+      .card_box_top{
+        height: 33%;
+      }
+
+      .card_box_center{
+        height: 33%;
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      .card_box_bottom{
+        height: 33%;
+        display: flex;
+        justify-content: space-around;
+
+        .card_box_bottom_circles{
+          display: flex;
+
+          .circle{
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 30px;
+          }
+
+          .left_circle{
+            margin-right: -7px;
+            opacity: 0.7;
+          }
+          .right_circle{
+            opacity: 0.7;
+            margin-left: -7px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .options_container{
+    display: flex;
+    justify-content: space-around;
+
+    button{
+      width: 110px;
+      height: 80px;
+      border: none;
+      border-radius: 20px;
+      border: 1px solid rgba(0, 0, 0, 0.411);
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      gap: 5px;
+    }
+  }
+
+  .last_transaction_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .last_transaction_box{
+      background-color: white;
+      width: 95%;
+      border-radius: 25px;
+      padding-bottom: 15px;
+      border: 1px solid rgba(0, 0, 0, 0.411);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h3{
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+      }
+
+      .cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .card{
+          width: 90%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border-bottom: 2px solid rgba(0, 0, 0, 0.432);
+          padding: 10px;
+
+          .name_icon{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+          }
+        }
+      }
+    }
+  }
+
+
+  /*classes*/
+.red_text{
+  color: red;
+}
+
+.green_text{
+  color: green;
+}
+
+}
+

@@ -2,21 +2,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /*variables*/
-:root{
-  --white: #fff;
-  --black: #000;
+:root {
+  --gray:  #A8A7A7 ;
+
+  --pink:   #97284d;
+  --red: #E8175D;
+
+  --blue:#45ADA8;
+  --dark_blue:#547980;
+
+  --beje:#E5FCC2;
+  --light_green:#9DE0AD;
+
+  --dark_gray: #474747 ;
+  --black: #363636 ;
+  --blue: #1b1970;
+  --pink_2: #EA4492;
+  --purple: #5d15af;
+
+  --background: #272727;
+  --appbar:var(--background-primary);
+  --background-primary: #121212;
+  --color_primary: #ffffff;
+  --color_secondary: #ffffff;
 }
 
 /*global settings*/
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: Roboto;
 }
 
-body,html{
-  background-image: linear-gradient(to bottom,#000, rgb(17, 17, 17) );
-  height: 100%;
-  width: 375px;
-}
+// <<<<<<< HEAD
+// body,html{
+//   background-image: linear-gradient(to bottom,#000, rgb(17, 17, 17) );
+//   height: 100%;
+//   width: 375px;
+// =======
+// body,
+// html{
+//   background-color: var(--background);
+// >>>>>>> develop
+// }

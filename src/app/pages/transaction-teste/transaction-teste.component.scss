@@ -1,0 +1,54 @@
+.last_transaction_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .last_transaction_box {
+    background-color: var(--background-primary);
+    color: var(--color_primary);
+    border-radius: 15px;
+
+    width: 95%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+      text-align: center;
+      padding: 10px;
+      font-size: 20px;
+    }
+
+    .cards {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      .card {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.432);
+
+        .name_icon {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+        }
+      }
+    }
+  }
+}
+  /*classes*/
+  .red_text {
+    color: red;
+  }
+
+  .green_text {
+    color: green;
+  }

@@ -1,0 +1,23 @@
+.container-nav-botton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+
+    .nav-botton{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 80%;
+      height: 40%;
+
+    }
+    // .navbar_buttons{
+    // }
+
+    .button_navbar_bottom{
+      width: 32px;
+      height: 32px;
+    }
+}

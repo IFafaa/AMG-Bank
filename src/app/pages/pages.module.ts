@@ -9,6 +9,7 @@ import { TransactionTesteComponent } from './transaction-teste/transaction-teste
 import { TransactionComponent } from './transaction/transaction.component';
 import { NavBarTopComponent } from './nav-bar-top/nav-bar-top.component';
 import { CardsComponent } from './cards/cards.component';
+import { RegistrationComponent } from './registration/registration.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { CardsComponent } from './cards/cards.component';
     NavBarComponent,
     TransactionTesteComponent,
     NavBarTopComponent,
-    CardsComponent
+    CardsComponent,
+    RegistrationComponent
   ],
   imports: [
     CommonModule,

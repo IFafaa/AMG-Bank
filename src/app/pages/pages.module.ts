@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import { PagesRoutingModule } from './pages-routing.module';
 import { LoginComponent } from './login/login.component';
 import { LandingComponent } from './landing/landing.component';
-import { NavBarComponent } from './nav-bar-buttom/nav-bar.component';
 import { TransactionTesteComponent } from './transaction-teste/transaction-teste.component';
 import { TransactionComponent } from './transaction/transaction.component';
-import { NavBarTopComponent } from './nav-bar-top/nav-bar-top.component';
-import { CardsComponent } from './cards/cards.component';
+import { NavBarComponent } from './components/nav-bar-buttom/nav-bar.component';
+import { NavBarTopComponent } from './components/nav-bar-top/nav-bar-top.component';
+import { CardsComponent } from './components/cards/cards.component';
+import { CardComponent } from './card/card.component';
 
 
 @NgModule({
@@ -19,7 +19,8 @@ import { CardsComponent } from './cards/cards.component';
     NavBarComponent,
     TransactionTesteComponent,
     NavBarTopComponent,
-    CardsComponent
+    CardsComponent,
+    CardComponent
   ],
   imports: [
     CommonModule,

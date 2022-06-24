@@ -1,3 +1,4 @@
+import { CardComponent } from './card/card.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LandingComponent } from './landing/landing.component';
@@ -7,6 +8,10 @@ import { TransactionComponent } from './transaction/transaction.component';
 
 
 const routes: Routes = [
+  {
+    path: 'card',
+    component: CardComponent
+  },
   {
     path: 'login',
     component: LoginComponent

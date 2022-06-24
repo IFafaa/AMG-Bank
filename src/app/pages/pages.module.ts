@@ -6,9 +6,9 @@ import { LandingComponent } from './landing/landing.component';
 import { TransactionTesteComponent } from './transaction-teste/transaction-teste.component';
 import { TransactionComponent } from './transaction/transaction.component';
 import { NavBarComponent } from './components/nav-bar-buttom/nav-bar.component';
-import { NavBarTopComponent } from './components/nav-bar-top/nav-bar-top.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { CardComponent } from './card/card.component';
+import { RegistrationComponent } from './registration/registration.component';
 
 
 @NgModule({
@@ -18,9 +18,9 @@ import { CardComponent } from './card/card.component';
     TransactionComponent,
     NavBarComponent,
     TransactionTesteComponent,
-    NavBarTopComponent,
     CardsComponent,
-    CardComponent
+    CardComponent,
+    RegistrationComponent
   ],
   imports: [
     CommonModule,
